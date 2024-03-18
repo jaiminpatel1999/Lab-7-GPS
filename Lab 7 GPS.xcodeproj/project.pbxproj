@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521D4DE42BA894E3004DDB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D4DE32BA894E3004DDB4D /* AppDelegate.swift */; };
+		521D4DE62BA894E3004DDB4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D4DE52BA894E3004DDB4D /* SceneDelegate.swift */; };
+		521D4DE82BA894E3004DDB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D4DE72BA894E3004DDB4D /* ViewController.swift */; };
+		521D4DEB2BA894E3004DDB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521D4DE92BA894E3004DDB4D /* Main.storyboard */; };
+		521D4DED2BA894E4004DDB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521D4DEC2BA894E4004DDB4D /* Assets.xcassets */; };
+		521D4DF02BA894E4004DDB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521D4DEE2BA894E4004DDB4D /* LaunchScreen.storyboard */; };
+		521D4DFB2BA894E4004DDB4D /* Lab_7_GPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D4DFA2BA894E4004DDB4D /* Lab_7_GPSTests.swift */; };
+		521D4E052BA894E4004DDB4D /* Lab_7_GPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D4E042BA894E4004DDB4D /* Lab_7_GPSUITests.swift */; };
+		521D4E072BA894E4004DDB4D /* Lab_7_GPSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D4E062BA894E4004DDB4D /* Lab_7_GPSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521D4DF72BA894E4004DDB4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521D4DD82BA894E3004DDB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521D4DDF2BA894E3004DDB4D;
+			remoteInfo = "Lab 7 GPS";
+		};
+		521D4E012BA894E4004DDB4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521D4DD82BA894E3004DDB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521D4DDF2BA894E3004DDB4D;
+			remoteInfo = "Lab 7 GPS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		521D4DE02BA894E3004DDB4D /* Lab 7 GPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab 7 GPS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521D4DE32BA894E3004DDB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		521D4DE52BA894E3004DDB4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		521D4DE72BA894E3004DDB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		521D4DEA2BA894E3004DDB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		521D4DEC2BA894E4004DDB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521D4DEF2BA894E4004DDB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		521D4DF12BA894E4004DDB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521D4DF62BA894E4004DDB4D /* Lab 7 GPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 7 GPSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521D4DFA2BA894E4004DDB4D /* Lab_7_GPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_7_GPSTests.swift; sourceTree = "<group>"; };
+		521D4E002BA894E4004DDB4D /* Lab 7 GPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 7 GPSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521D4E042BA894E4004DDB4D /* Lab_7_GPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_7_GPSUITests.swift; sourceTree = "<group>"; };
+		521D4E062BA894E4004DDB4D /* Lab_7_GPSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_7_GPSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521D4DDD2BA894E3004DDB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521D4DF32BA894E4004DDB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521D4DFD2BA894E4004DDB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521D4DD72BA894E3004DDB4D = {
+			isa = PBXGroup;
+			children = (
+				521D4DE22BA894E3004DDB4D /* Lab 7 GPS */,
+				521D4DF92BA894E4004DDB4D /* Lab 7 GPSTests */,
+				521D4E032BA894E4004DDB4D /* Lab 7 GPSUITests */,
+				521D4DE12BA894E3004DDB4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521D4DE12BA894E3004DDB4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521D4DE02BA894E3004DDB4D /* Lab 7 GPS.app */,
+				521D4DF62BA894E4004DDB4D /* Lab 7 GPSTests.xctest */,
+				521D4E002BA894E4004DDB4D /* Lab 7 GPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521D4DE22BA894E3004DDB4D /* Lab 7 GPS */ = {
+			isa = PBXGroup;
+			children = (
+				521D4DE32BA894E3004DDB4D /* AppDelegate.swift */,
+				521D4DE52BA894E3004DDB4D /* SceneDelegate.swift */,
+				521D4DE72BA894E3004DDB4D /* ViewController.swift */,
+				521D4DE92BA894E3004DDB4D /* Main.storyboard */,
+				521D4DEC2BA894E4004DDB4D /* Assets.xcassets */,
+				521D4DEE2BA894E4004DDB4D /* LaunchScreen.storyboard */,
+				521D4DF12BA894E4004DDB4D /* Info.plist */,
+			);
+			path = "Lab 7 GPS";
+			sourceTree = "<group>";
+		};
+		521D4DF92BA894E4004DDB4D /* Lab 7 GPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				521D4DFA2BA894E4004DDB4D /* Lab_7_GPSTests.swift */,
+			);
+			path = "Lab 7 GPSTests";
+			sourceTree = "<group>";
+		};
+		521D4E032BA894E4004DDB4D /* Lab 7 GPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				521D4E042BA894E4004DDB4D /* Lab_7_GPSUITests.swift */,
+				521D4E062BA894E4004DDB4D /* Lab_7_GPSUITestsLaunchTests.swift */,
+			);
+			path = "Lab 7 GPSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521D4DDF2BA894E3004DDB4D /* Lab 7 GPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521D4E0A2BA894E4004DDB4D /* Build configuration list for PBXNativeTarget "Lab 7 GPS" */;
+			buildPhases = (
+				521D4DDC2BA894E3004DDB4D /* Sources */,
+				521D4DDD2BA894E3004DDB4D /* Frameworks */,
+				521D4DDE2BA894E3004DDB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab 7 GPS";
+			productName = "Lab 7 GPS";
+			productReference = 521D4DE02BA894E3004DDB4D /* Lab 7 GPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521D4DF52BA894E4004DDB4D /* Lab 7 GPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521D4E0D2BA894E4004DDB4D /* Build configuration list for PBXNativeTarget "Lab 7 GPSTests" */;
+			buildPhases = (
+				521D4DF22BA894E4004DDB4D /* Sources */,
+				521D4DF32BA894E4004DDB4D /* Frameworks */,
+				521D4DF42BA894E4004DDB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521D4DF82BA894E4004DDB4D /* PBXTargetDependency */,
+			);
+			name = "Lab 7 GPSTests";
+			productName = "Lab 7 GPSTests";
+			productReference = 521D4DF62BA894E4004DDB4D /* Lab 7 GPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		521D4DFF2BA894E4004DDB4D /* Lab 7 GPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521D4E102BA894E4004DDB4D /* Build configuration list for PBXNativeTarget "Lab 7 GPSUITests" */;
+			buildPhases = (
+				521D4DFC2BA894E4004DDB4D /* Sources */,
+				521D4DFD2BA894E4004DDB4D /* Frameworks */,
+				521D4DFE2BA894E4004DDB4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521D4E022BA894E4004DDB4D /* PBXTargetDependency */,
+			);
+			name = "Lab 7 GPSUITests";
+			productName = "Lab 7 GPSUITests";
+			productReference = 521D4E002BA894E4004DDB4D /* Lab 7 GPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521D4DD82BA894E3004DDB4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					521D4DDF2BA894E3004DDB4D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					521D4DF52BA894E4004DDB4D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 521D4DDF2BA894E3004DDB4D;
+					};
+					521D4DFF2BA894E4004DDB4D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 521D4DDF2BA894E3004DDB4D;
+					};
+				};
+			};
+			buildConfigurationList = 521D4DDB2BA894E3004DDB4D /* Build configuration list for PBXProject "Lab 7 GPS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 521D4DD72BA894E3004DDB4D;
+			productRefGroup = 521D4DE12BA894E3004DDB4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521D4DDF2BA894E3004DDB4D /* Lab 7 GPS */,
+				521D4DF52BA894E4004DDB4D /* Lab 7 GPSTests */,
+				521D4DFF2BA894E4004DDB4D /* Lab 7 GPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521D4DDE2BA894E3004DDB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521D4DF02BA894E4004DDB4D /* LaunchScreen.storyboard in Resources */,
+				521D4DED2BA894E4004DDB4D /* Assets.xcassets in Resources */,
+				521D4DEB2BA894E3004DDB4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521D4DF42BA894E4004DDB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521D4DFE2BA894E4004DDB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521D4DDC2BA894E3004DDB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521D4DE82BA894E3004DDB4D /* ViewController.swift in Sources */,
+				521D4DE42BA894E3004DDB4D /* AppDelegate.swift in Sources */,
+				521D4DE62BA894E3004DDB4D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521D4DF22BA894E4004DDB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521D4DFB2BA894E4004DDB4D /* Lab_7_GPSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521D4DFC2BA894E4004DDB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521D4E052BA894E4004DDB4D /* Lab_7_GPSUITests.swift in Sources */,
+				521D4E072BA894E4004DDB4D /* Lab_7_GPSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521D4DF82BA894E4004DDB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521D4DDF2BA894E3004DDB4D /* Lab 7 GPS */;
+			targetProxy = 521D4DF72BA894E4004DDB4D /* PBXContainerItemProxy */;
+		};
+		521D4E022BA894E4004DDB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521D4DDF2BA894E3004DDB4D /* Lab 7 GPS */;
+			targetProxy = 521D4E012BA894E4004DDB4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521D4DE92BA894E3004DDB4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521D4DEA2BA894E3004DDB4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		521D4DEE2BA894E4004DDB4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521D4DEF2BA894E4004DDB4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521D4E082BA894E4004DDB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		521D4E092BA894E4004DDB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521D4E0B2BA894E4004DDB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lab 7 GPS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Lab-7-GPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521D4E0C2BA894E4004DDB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lab 7 GPS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Lab-7-GPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		521D4E0E2BA894E4004DDB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Lab-7-GPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 7 GPS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab 7 GPS";
+			};
+			name = Debug;
+		};
+		521D4E0F2BA894E4004DDB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Lab-7-GPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 7 GPS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab 7 GPS";
+			};
+			name = Release;
+		};
+		521D4E112BA894E4004DDB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Lab-7-GPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab 7 GPS";
+			};
+			name = Debug;
+		};
+		521D4E122BA894E4004DDB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conestoga.Lab-7-GPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab 7 GPS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521D4DDB2BA894E3004DDB4D /* Build configuration list for PBXProject "Lab 7 GPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521D4E082BA894E4004DDB4D /* Debug */,
+				521D4E092BA894E4004DDB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521D4E0A2BA894E4004DDB4D /* Build configuration list for PBXNativeTarget "Lab 7 GPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521D4E0B2BA894E4004DDB4D /* Debug */,
+				521D4E0C2BA894E4004DDB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521D4E0D2BA894E4004DDB4D /* Build configuration list for PBXNativeTarget "Lab 7 GPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521D4E0E2BA894E4004DDB4D /* Debug */,
+				521D4E0F2BA894E4004DDB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521D4E102BA894E4004DDB4D /* Build configuration list for PBXNativeTarget "Lab 7 GPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521D4E112BA894E4004DDB4D /* Debug */,
+				521D4E122BA894E4004DDB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521D4DD82BA894E3004DDB4D /* Project object */;
+}
